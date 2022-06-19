@@ -11,14 +11,14 @@
 #include "Dao/PessoaDao.h"
 int main()
 {
-  //TurmaDao *turmaDao = new TurmaDao();
-  //MatriculaDao *matriculaDao = new MatriculaDao();
- // AlunoDao *alunoDao = new AlunoDao();
+  TurmaDao *turmaDao = new TurmaDao();
+  MatriculaDao *matriculaDao = new MatriculaDao();
+ AlunoDao *alunoDao = new AlunoDao();
   PessoaDao *pessoaDao = new PessoaDao();
 
-  //TurmaMgr *turmaMgr = new TurmaMgr();
-  //MatriculaMgr *matriculaMgr = new MatriculaMgr();
-  //AlunoMgr *alunoMgr = new AlunoMgr();
+  TurmaMgr *turmaMgr = new TurmaMgr();
+  MatriculaMgr *matriculaMgr = new MatriculaMgr();
+  AlunoMgr *alunoMgr = new AlunoMgr();
   PessoaMgr *pessoaMgr = new PessoaMgr();
 
 /*
