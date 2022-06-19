@@ -4,6 +4,7 @@ bool TurmaDao::criar(Turma &turma)
 {
   if (this->turmasCount == MAX_TURMAS)
     return false;
+  turma.setId(this->turmasCount);
   this->turmas[this->turmasCount++] = &turma;
   return true;
 }
@@ -24,4 +25,14 @@ bool TurmaDao::addMatricula(Turma &turma, Matricula &matricula)
   turma.getMatriculas()[turma.getMatriculasCount()] = matricula;
   turma.matriculasCountAddOne();
   return true;
+}
+
+Turma *TurmaDao::buscar(std::string nomeTurma)
+{
+  for (int i = 0; i < turmasCount; i++)
+  {
+    if (this->turmas[i]->getNome() == nomeTurma)
+      return this->turmas[i];
+  }
+  return NULL;
 }

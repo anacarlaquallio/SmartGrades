@@ -10,3 +10,8 @@ bool MatriculaMgr::criar(Matricula &matricula)
 {
   return this->matriculaDao->criar(matricula);
 }
+
+void MatriculaMgr::setMatriculaDao(MatriculaDao &matriculaDao)
+{
+  this->matriculaDao = &matriculaDao;
+}

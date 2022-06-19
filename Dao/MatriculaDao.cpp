@@ -4,6 +4,7 @@ bool MatriculaDao::criar(Matricula &matricula)
 {
   if (this->matriculasCount == MAX_MATRICULAS)
     return false;
+  matricula.setId(this->matriculasCount);
   this->matriculas[this->matriculasCount++] = &matricula;
   return true;
 }

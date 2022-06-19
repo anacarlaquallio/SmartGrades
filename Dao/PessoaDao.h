@@ -5,7 +5,7 @@
 #define MAX_PESSOAS 10
 class PessoaDao
 {
-  Pessoa *pessoas[MAX_PESSOAS];
+  Pessoa pessoas[MAX_PESSOAS];
   int pessoasCount;
 
 public:

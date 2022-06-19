@@ -8,5 +8,6 @@ class MatriculaMgr
 
 public:
   MatriculaDao &getMatriculaDao();
+  void setMatriculaDao(MatriculaDao &matriculaDao);
   bool criar(Matricula &);
 };

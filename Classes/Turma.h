@@ -10,7 +10,7 @@ class Turma
 {
 private:
     int id;
-    Matricula *matriculas[MAX_MATRICULAS];
+    Matricula matriculas[MAX_MATRICULAS];
     int matriculasCount = 0;
     std::string nome;
     std::string nivel;

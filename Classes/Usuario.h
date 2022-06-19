@@ -13,7 +13,7 @@ private:
 
 public:
     int getId();
-    Pessoa getPessoa();
+    Pessoa *getPessoa();
     std::string getDataCadastro();
 
     void setId(int);

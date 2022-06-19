@@ -1,8 +1,8 @@
 #include "Usuario.h"
 
-Pessoa Usuario::getPessoa()
+Pessoa *Usuario::getPessoa()
 {
-  return *pessoa;
+  return pessoa;
 }
 std::string Usuario::getDataCadastro()
 {

@@ -1,7 +1,7 @@
 #include "Pessoa.h"
-Credencial Pessoa::getCredencial()
+Credencial *Pessoa::getCredencial()
 {
-  return *credencial;
+  return credencial;
 }
 std::string Pessoa::getNome()
 {

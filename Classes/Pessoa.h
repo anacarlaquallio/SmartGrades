@@ -17,7 +17,7 @@ private:
 
 public:
     int getId();
-    Credencial getCredencial();
+    Credencial *getCredencial();
     std::string getNome();
     std::string getSobrenome();
     std::string getTelefoneCelular();

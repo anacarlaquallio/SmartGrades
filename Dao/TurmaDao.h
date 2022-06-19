@@ -15,4 +15,5 @@ public:
   bool remover(Turma &);
   Turma *listar();
   bool addMatricula(Turma &, Matricula &);
+  Turma *buscar(std::string);
 };

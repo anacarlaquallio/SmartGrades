@@ -4,6 +4,7 @@ bool AlunoDao::criar(Aluno &aluno)
 {
   if (this->alunosCount == MAX_ALUNOS)
     return false;
+  aluno.setId(this->alunosCount);
   alunos[alunosCount++] = &aluno;
   return true;
 }
