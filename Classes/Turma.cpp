@@ -28,7 +28,7 @@ int Turma::getMatriculasCount()
 
 Matricula* Turma::getMatriculas()
 {
-  return this->matriculas;
+  return *this->matriculas;
 }
 
 void Turma::setId(int id)
