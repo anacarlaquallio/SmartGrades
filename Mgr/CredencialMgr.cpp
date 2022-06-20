@@ -1,5 +1,3 @@
-#pragma once
-
 #include "CredencialMgr.h"
 #include "../Dao/CredencialDao.h"
 
