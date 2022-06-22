@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/TurmaDao.h"
+#include "TurmaDao.h"
 
 class TurmaMgr
 {

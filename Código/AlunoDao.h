@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Aluno.h"
+#include "Aluno.h"
 
 #define MAX_ALUNOS 10
 

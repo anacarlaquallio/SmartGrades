@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Matricula.h"
+#include "Matricula.h"
 
 #define MAX_MATRICULAS 10
 class MatriculaDao

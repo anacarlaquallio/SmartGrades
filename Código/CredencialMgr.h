@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/CredencialDao.h"
+#include "CredencialDao.h"
 
 class CredencialMgr
 {

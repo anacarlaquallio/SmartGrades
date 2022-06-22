@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Boletim.h"
+#include "Boletim.h"
 
 #define MAX_BOLETINS 10
 class BoletimDao

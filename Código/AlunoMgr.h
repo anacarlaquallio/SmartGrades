@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/AlunoDao.h"
+#include "AlunoDao.h"
 
 class AlunoMgr
 {

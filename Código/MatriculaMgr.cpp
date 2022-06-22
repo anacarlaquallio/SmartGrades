@@ -1,5 +1,5 @@
-#include "../Mgr/MatriculaMgr.h"
-#include "../Dao/MatriculaDao.h"
+#include "MatriculaMgr.h"
+#include "MatriculaDao.h"
 
 MatriculaDao &MatriculaMgr::getMatriculaDao()
 {

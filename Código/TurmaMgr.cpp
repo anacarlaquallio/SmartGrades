@@ -1,5 +1,5 @@
-#include "../Mgr/TurmaMgr.h"
-#include "../Dao/TurmaDao.h"
+#include "TurmaMgr.h"
+#include "TurmaDao.h"
 
 TurmaDao &TurmaMgr::getTurmaDao()
 {

@@ -1,5 +1,7 @@
+
+
 #include "CredencialMgr.h"
-#include "../Dao/CredencialDao.h"
+#include "CredencialDao.h"
 
 bool CredencialMgr::cadastrar(Credencial &credencial)
 {

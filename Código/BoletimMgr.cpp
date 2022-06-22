@@ -1,5 +1,5 @@
-#include "../Mgr/BoletimMgr.h"
-#include "../Dao/BoletimDao.h"
+#include "BoletimMgr.h"
+#include "BoletimDao.h"
 
 BoletimDao &BoletimMgr::getBoletimDao()
 {

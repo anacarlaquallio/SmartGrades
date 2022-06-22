@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Pessoa.h"
+#include "Pessoa.h"
 
 #define MAX_PESSOAS 10
 class PessoaDao
@@ -9,7 +9,7 @@ class PessoaDao
   int pessoasCount;
 
 public:
-  bool criar(Pessoa &);
+  bool criar(Pessoa);
   Pessoa *buscar(std::string);
   bool atualizar(Pessoa &);
   bool remover(Pessoa &);

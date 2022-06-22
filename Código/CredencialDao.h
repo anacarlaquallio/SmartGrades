@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Credencial.h"
+#include "Credencial.h"
 
 #define MAX_CREDENCIAIS 10
 class CredencialDao

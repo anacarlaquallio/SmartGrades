@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Classes/Turma.h"
+#include "Turma.h"
 
 #define MAX_TURMAS 10
 class TurmaDao

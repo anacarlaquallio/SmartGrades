@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/PessoaDao.h"
+#include "PessoaDao.h"
 
 class PessoaMgr
 {
@@ -9,6 +9,6 @@ class PessoaMgr
 public:
   void setPessoaDao(PessoaDao &pessoaDao);
   PessoaDao &getPessoaDao();
-  bool criar(Pessoa &);
+  bool criar(Pessoa pessoa);
   Pessoa *buscar(std::string);
 };

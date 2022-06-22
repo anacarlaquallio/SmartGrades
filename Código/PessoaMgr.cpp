@@ -1,5 +1,5 @@
-#include "../Mgr/PessoaMgr.h"
-#include "../Dao/PessoaDao.h"
+#include "PessoaMgr.h"
+#include "PessoaDao.h"
 
 PessoaDao &PessoaMgr::getPessoaDao()
 {
@@ -11,7 +11,7 @@ void PessoaMgr::setPessoaDao(PessoaDao &pessoaDao)
   this->pessoaDao = &pessoaDao;
 }
 
-bool PessoaMgr::criar(Pessoa &pessoa)
+bool PessoaMgr::criar(Pessoa pessoa)
 {
   return this->pessoaDao->criar(pessoa);
 }

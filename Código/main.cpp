@@ -1,16 +1,16 @@
 #include "iostream"
-#include "Mgr/AlunoMgr.h"
-#include "Mgr/BoletimMgr.h"
-#include "Mgr/MatriculaMgr.h"
-#include "Mgr/TurmaMgr.h"
-#include "Mgr/PessoaMgr.h"
-#include "Dao/AlunoDao.h"
-#include "Dao/BoletimDao.h"
-#include "Dao/MatriculaDao.h"
-#include "Dao/TurmaDao.h"
-#include "Dao/PessoaDao.h"
-#include "Mgr/CredencialMgr.h"
-#include "Dao/CredencialDao.h"
+#include "AlunoMgr.h"
+#include "BoletimMgr.h"
+#include "MatriculaMgr.h"
+#include "TurmaMgr.h"
+#include "PessoaMgr.h"
+#include "AlunoDao.h"
+#include "BoletimDao.h"
+#include "MatriculaDao.h"
+#include "TurmaDao.h"
+#include "PessoaDao.h"
+#include "CredencialMgr.h"
+#include "CredencialDao.h"
 
 int main()
 {
@@ -50,6 +50,7 @@ int main()
   std::cout << pessoa->getId();
   pessoaMgr->criar(*pessoa);
   std::cout << pessoa->getId();
+  std::cout << pessoaMgr->buscar("12345")->getId();
 
   Aluno *aluno = new Aluno();
   aluno->setPessoa(pessoa);
@@ -74,7 +75,6 @@ int main()
   matricula->setDataFechamento("");
   matricula->setDataConclusao("10/05/2023");
 
-  turmaMgr->addMatricula(*turma, *matricula);
-
+  turmaMgr->addMatricula(*turmaMgr->buscar("AEF2B-2022"), *matricula);
   return 0;
 }

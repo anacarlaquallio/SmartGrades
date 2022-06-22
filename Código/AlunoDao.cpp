@@ -1,4 +1,4 @@
-#include "../Dao/AlunoDao.h"
+#include "AlunoDao.h"
 
 bool AlunoDao::criar(Aluno &aluno)
 {

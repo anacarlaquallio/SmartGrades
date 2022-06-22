@@ -1,5 +1,5 @@
-#include "../Mgr/AlunoMgr.h"
-#include "../Dao/AlunoDao.h"
+#include "AlunoMgr.h"
+#include "AlunoDao.h"
 
 AlunoDao &AlunoMgr::getAlunoDao()
 {

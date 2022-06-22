@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/MatriculaDao.h"
+#include "MatriculaDao.h"
 
 class MatriculaMgr
 {

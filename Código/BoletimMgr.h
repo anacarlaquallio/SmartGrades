@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Dao/BoletimDao.h"
+#include "BoletimDao.h"
 
 class BoletimMgr
 {

@@ -1,7 +1,7 @@
 #include "PessoaDao.h"
 #include "iostream"
 
-bool PessoaDao::criar(Pessoa &pessoa)
+bool PessoaDao::criar(Pessoa pessoa)
 {
   if (this->pessoasCount == MAX_PESSOAS)
     return false;
