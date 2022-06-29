@@ -27,7 +27,7 @@ bool TurmaDao::addMatricula(Turma &turma, Matricula &matricula)
   return true;
 }
 
-Turma *TurmaDao::buscar(std::string nomeTurma)
+Turma *TurmaDao::buscarPorNome(std::string nomeTurma)
 {
   for (int i = 0; i < turmasCount; i++)
   {

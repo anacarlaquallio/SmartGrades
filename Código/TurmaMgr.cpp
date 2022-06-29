@@ -21,7 +21,7 @@ void TurmaMgr::setTurmaDao(TurmaDao &turmaDao)
   this->turmaDao = &turmaDao;
 }
 
-Turma *TurmaMgr::buscar(std::string nomeTurma)
+Turma *TurmaMgr::buscarPorNome(std::string nomeTurma)
 {
-  return this->turmaDao->buscar(nomeTurma);
+  return this->turmaDao->buscarPorNome(nomeTurma);
 }

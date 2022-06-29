@@ -11,5 +11,5 @@ public:
   void setTurmaDao(TurmaDao &turmaDao);
   bool cadastrar(Turma &);
   bool addMatricula(Turma &, Matricula &);
-  Turma *buscar(std::string);
+  Turma *buscarPorNome(std::string);
 };
